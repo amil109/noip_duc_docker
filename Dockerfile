@@ -11,4 +11,5 @@ RUN mkdir /usr/local/src
 RUN cd /usr/local/src && wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz && tar xzf noip-duc-linux.tar.gz
 
 # Makes the client and installs it, prompting for client details on first run
-ENTRYPOINT ["/firstBoot.sh"]
+# TBC why the below isn't working... run it manually on first boot for now...
+#ENTRYPOINT ["/firstBoot.sh"]
