@@ -13,7 +13,7 @@ On the first run, you'll be prompted for login details, and can set which hosts 
 For subsequent starts, use the below:
 
 ```
-docker container run -d --restart unless-stopped noip_duc
+docker container start noip_duc
 ```
 
 
