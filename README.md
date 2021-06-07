@@ -8,8 +8,14 @@ docker build -t "docker_noip_duc:v1" .
 docker container run -it --restart unless-stopped --name noip_duc docker_noip_duc:v1
 ```
 
-On the first run, you'll be prompted for login details, and can set which hosts you update.
-Once you have entered your details, simply type:
+Once the container loads, type the command below:
+
+```
+/firstBoot.sh
+```
+
+The script will build the NO-IP DUC, and you'll then be prompted for login details, and can set which hosts you update.
+Once you have entered your details, you'll be returned to the command prompt in the container. Simply type:
 
 ```
 exit
