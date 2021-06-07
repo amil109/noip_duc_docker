@@ -1,4 +1,4 @@
-# noip_duc_docker
+# Run the NO-IP.com Dynamic Update Client in a (tiny) Docker
 Scripts for creation of NOIP DUC in a Docker
 
 Clone this repo into a folder, and run the commands below:
