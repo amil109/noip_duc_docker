@@ -9,6 +9,13 @@ docker container run -it --restart unless-stopped --name noip_duc docker_noip_du
 ```
 
 On the first run, you'll be prompted for login details, and can set which hosts you update.
+Once you have entered your details, simply type:
+
+```
+exit
+```
+
+At the command prompt to return to the host. At this point, the Docker is running, and you don't need to do anything else.
 
 For subsequent starts, use the below:
 
